@@ -120,6 +120,10 @@
     width: 100vw;
   }
   
+  .logo{
+      display: none;
+  }
+
   .navbar{
       display: none;
   }
@@ -127,7 +131,11 @@
   .hero-section{
       flex-direction: column;
       flex-flow: column-reverse;
-      margin: 30px 0 0;
+      margin: 50px 0 0;
+  }
+
+  .hero-img{
+    width: 200px;
   }
 
   .hero-text{
