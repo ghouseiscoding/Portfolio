@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  text-decoration: none;
+  color: black;
+  padding-top: 20px;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  
+}
+
+.navbar ul li{
+  padding: 20px;
+}
+
+.navbar ul li:hover{
+  background-color: #EEEEEE;
+  transition: .3s ease;
+}
+
+
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+ 
+
+}
+
+
+.hero-section{
+  display: flex;
+  align-items: center;
+  margin: 80px 0 80px;
+}
+
+.hero-desc-links{
+  color: black;
+  text-decoration: none;
+}
+
+.hero-desc{
+  margin: 20px 0;
+}
+
+
+
+.hero-img{
+  border-radius: 50%;
+  overflow: none;
+  width: 20rem;
+}
+
+.cta{
+  margin: 40px 0;
+}
+
+.buttons{
+  padding: 10px 40px;
+  margin: 0 5px;
+  font-size: .9rem;
+  border-radius: 4px;
+    border: 1px solid gray;
+  text-decoration: none;
+}
+
+.cta a{
+  text-decoration: none;
+}
+
+.primary-cta{
+  background-color: black;
+  color: white;
+
+}
+
+.primary-cta:hover{
+  background-color: #2C3333;
+    transition: .3s ease;
+}
+
+.secondary-cta{
+  background-color: white;
+  color: black;
+}
+
+.secondary-cta:hover{
+  background-color: #EEEEEE;
+  transition: .3s ease;
+}
+
+.scrolling-text{
+  background-color: #EEEEEE;
+}
+
+@media only screen and (max-width: 900px) {
+  .container{
+    background-color: lightblue;
+    width: 500px;
+  }
+  
+  .navbar{
+      display: none;
+  }
+
+  .hero-section{
+      flex-direction: column;
+      flex-flow: column-reverse;
+  }
+
+  .hero-text{
+      text-align: center;
+      padding: 20px;
+  }
+}
