@@ -25,28 +25,30 @@
   padding-top: 20px;
 }
 
-.navbar ul{
-  display: flex;
-  list-style: none;
+.nav-icon{
+    display: none;
+  }
   
-}
-
-.navbar ul li{
-  padding: 20px;
-}
-
-.navbar ul li:hover{
-  background-color: #EEEEEE;
-  transition: .3s ease;
-}
-
-
-.navbar ul li a{
-  text-decoration: none;
-  color: black;
- 
-
-}
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  .nav-items{
+    padding: 20px;
+  }
+  
+  .nav-items:hover{
+    background-color: #EEEEEE;
+    transition: .3s ease;
+  }
+  
+  
+  .nav-links{
+    text-decoration: none;
+    color: black;
+  }
 
 
 
@@ -179,12 +181,19 @@
     /* background-color: lightblue; */
     width: 100vw;
   }
+
+  .nav-icon{
+    display: inline;
+    padding: 20px;    
+  }
+
+  
   
   .logo{
       display: none;
   }
 
-  .navbar{
+  .nav-items{
       display: none;
   }
 
